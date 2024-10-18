@@ -1,0 +1,15 @@
+{
+  "originHash" : "f58c50748cc67b572ace7d325fe511479b97ba66af46f3763b64a39325dbc3d2",
+  "pins" : [
+    {
+      "identity" : "dglineheight",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/donggyushin/DGLineHeight",
+      "state" : {
+        "revision" : "9e1b0ca06bf8eadd2de18f7eca6a50783aa15acd",
+        "version" : "1.0.4"
+      }
+    }
+  ],
+  "version" : 3
+}
