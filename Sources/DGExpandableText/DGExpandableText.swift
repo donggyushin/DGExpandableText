@@ -152,9 +152,10 @@ public struct DGExpandableText: View {
 #Preview {
     DGExpandableText(
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut laborum",
-        lineLimit: 9,
+        lineLimit: 3,
         lineHeight: 30,
-        moreButtonText: " 더 보기"
+        moreButtonText: " 더 보기",
+        moreButtonFont: .boldSystemFont(ofSize: 15)
     )
     .foregroundStyle(.gray)
     .preferredColorScheme(.dark)
